@@ -12,7 +12,7 @@ class Network
   end
 
   def main_characters
-      all_character = @shows.flat_map do |show|
+      all_characters = @shows.flat_map do |show|
         show.characters
       end
 
